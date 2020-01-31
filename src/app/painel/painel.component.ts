@@ -11,7 +11,7 @@ export class PainelComponent implements OnInit {
 
   public frases: Frase[] = FRASES
   public instrucao: string = "Traduza a frase"
-  public resposta: string = ' '
+  public resposta: string = ''
 
   public rodada: number = 0
   public rodadaFrase: Frase
