@@ -42,7 +42,7 @@ export class PainelComponent implements OnInit {
 
       //progresso
       this.progresso = this.progresso + (100 / this.frases.length)
-      console.log(this.progresso)
+      
 
       //atualiza o objeto rodadaFase
       this.atualizaRodada()      
@@ -55,7 +55,7 @@ export class PainelComponent implements OnInit {
         alert('você perdeu todas as tentativas')
       }
     }
-    console.log(this.tentativas)
+    
   }
 
   public atualizaRodada(): void {
